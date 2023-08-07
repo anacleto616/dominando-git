@@ -14,3 +14,4 @@
 - git add 'nome-arquivo' ou . -> tira os arquivos do untracked e coloca no stage area
 - ***unstage area*** -> arquivos e não foram adicionados no git add, porém é reconhecido pelo git que já foi modificado
 - para criar alias vá nas configurações globais e adicione uma seção [alias]
+- git add . não adiciona os arquivos se for executado fora do níve de diretórios deles, para funcionar deve ser adicionado a flag --all
