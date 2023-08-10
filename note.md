@@ -28,3 +28,8 @@
 - git push --delete origin 'nome-tag' -> deleta tag remota
 - git push origin main --tags -> envia todas as tags, inclusive as light weight
 - git push origin main --follow-tags -> envia as tags comentadas
+- git reset 'nome-arquivo'(opcional) -> remove as alterações da stage/index
+- git reset 349d25e (hash do commit abaixo ao último) --soft -> volta ao estado anterior ao commit, excluindo os acima deste, voltando as alterações para stage area
+- git reset HEAD~1 (volta ao estado de um commit) --mixed(default) -> volta ao estado anterior ao commit, excluindo os acima deste, voltando as alterações para workspace
+- git reset HEAD~1 --hard -> volta ao estado anterior ao commit, excluindo os acima deste e suas alterações
+- git revert -> não exclui commits acima, cria um novo commit a partir do apontado, com as suas modificações
