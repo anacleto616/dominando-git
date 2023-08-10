@@ -32,4 +32,4 @@
 - git reset 349d25e (hash do commit abaixo ao último) --soft -> volta ao estado anterior ao commit, excluindo os acima deste, voltando as alterações para stage area
 - git reset HEAD~1 (volta ao estado de um commit) --mixed(default) -> volta ao estado anterior ao commit, excluindo os acima deste, voltando as alterações para workspace
 - git reset HEAD~1 --hard -> volta ao estado anterior ao commit, excluindo os acima deste e suas alterações
-- git revert -> não exclui commits acima, cria um novo commit a partir do apontado, com as suas modificações
+- git revert 'hash ou HEAD~' (--no-edit para não abrir modo edição ou --no--commit) -> não exclui commits acima, cria um novo commit a partir do apontado, com as suas modificações
