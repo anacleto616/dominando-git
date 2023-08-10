@@ -14,7 +14,7 @@
 - git add 'nome-arquivo' ou . -> tira os arquivos do untracked e coloca no stage area
 - ***unstage area*** -> arquivos e não foram adicionados no git add, porém é reconhecido pelo git que já foi modificado
 - para criar alias vá nas configurações globais e adicione uma seção [alias]
-- git add . não adiciona os arquivos se for executado fora do níve de diretórios deles, para funcionar deve ser adicionado a flag --all
+- git add . não adiciona os arquivos se for executado fora do nível de diretórios deles, para funcionar deve ser adicionado a flag --all
 - git commit --amend --no-edit -> adiciona as modificações no commit anterior sem precisar de uma nova descrição
 - git stash -> guarda suas modificações e volta ao estado anterior do último commit
 - git stash list -> lista dos stashs criados
