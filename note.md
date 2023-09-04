@@ -36,3 +36,12 @@
 - git checkout 'nome-arquivo' -> desfaz suas alterações, não reconhece arquivos untracked, não funciona para stage area
 - git checkout 'hash' ou 'tag' -> retorna para o estado no momento daquele commit
 - git checkout -b 'nome-branch' -> cria branch e já troca para a branch criada
+- git clean -n -> desfaz suas alterações, reconhece arquivos untracked, não funciona para stage area
+- git clean -f -> desfaz suas alterações de forma forçada
+- git clean -d -> desfaz suas alterações dentro de pastas
+- git rm 'nome-arquivo' -> remove arquivos, reconhece os arquivos tracked
+- git rebase -i HEAD~'' -> modo interativo
+  - squash -> escolhe a mensagem
+  - fixup -> fixa a mensagem que ja foi escrita no commit
+  - edit -> editar um commit, dividí-lo em dois por exemplo (git rebase --continue - encerra o modo após terminado as edições)
+- git reflog -> historico de tudo que ja feito
